@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Solar Power Prediction</title>
+</head>
+<body>
+    <h2>Enter Environmental Factors</h2>
+    <form action="/predict" method="post">
+        <label>Temperature (°C):</label>
+        <input type="text" name="temperature" required><br><br>
+
+        <label>Solar Radiation (W/m²):</label>
+        <input type="text" name="solar_radiation" required><br><br>
+
+        <label>Wind Speed (m/s):</label>
+        <input type="text" name="wind_speed" required><br><br>
+
+        <label>Humidity (%):</label>
+        <input type="text" name="humidity" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
